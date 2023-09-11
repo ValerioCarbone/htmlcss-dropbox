@@ -24,9 +24,18 @@ img {
     margin: 0 auto;
 }
 
-.navbar-row{
-    display: flex;
-    justify-content: space-between;
+.row{
+    display: flex;    
+}
+
+.justify-content-sb{
+    justify-content: space-between; 
+}
+.align-items-cntr{
+    align-items: center;
+}
+
+.navbar .row{
     padding: 28px 20px;
 }
 
@@ -114,8 +123,26 @@ margin-left: 34px;
     flex-direction: column;
 }
 
-/* .flex-arrow{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-} */
+.section-title{
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.business span{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.invoice-option{
+    padding-right: 60px;
+    display: inline-block;
+}
+
+.business .col-4{
+    flex-basis: calc((100% - 100px) / 3);
+}
+
+.business .row{
+    gap:  0 50px;
+}
