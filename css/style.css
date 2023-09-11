@@ -130,13 +130,8 @@ margin-left: 34px;
 
 .section-title{
     font-size: 40px;
-    padding-top: 80px;
-    padding-bottom: 60px;
-}
-
-.business span{
-    display: inline-block;
-    margin-right: 5px;
+    padding-top: 60px;
+    padding-bottom: 10px;
 }
 
 .invoice-option{
@@ -150,4 +145,14 @@ margin-left: 34px;
 
 .business .row{
     gap:  0 50px;
+}
+
+.card-container{
+    padding: 40px 26px;
+}
+
+.business{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
 }
