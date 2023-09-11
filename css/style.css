@@ -24,3 +24,7 @@ header img {
     display: flex;
     flex-wrap: wrap;
 }
+
+.jc-space-between{
+    justify-content: space-between;
+}
