@@ -176,6 +176,9 @@ font-size: 16px;
 
 .card-container{
     padding: 40px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .business{
@@ -202,3 +205,26 @@ font-size: 16px;
     font-weight: 400;
 
 }
+
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.price{
+font-weight: 600;
+font-size: 14px;
+margin-bottom: 20px;
+}
+
+.unit{
+ font-weight: 300;
+ font-size: 14px;
+ margin-bottom: 20px;
+}
+
+.funcion-item{
+    margin-bottom: 20px;
+}
+
