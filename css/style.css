@@ -305,5 +305,66 @@ margin-bottom: 20px;
 }
 
 .client-section .border-bottom{
-    width: 60px;
+    width: 100px;
+}
+
+.bg-color-red{
+    background-color: #FF1C1C;
+}
+
+.bg-color-darkred{
+    background-color: #D5001F;
+}
+
+.bg-color-lightgreen{
+    background-color: #A2D39B;
+}
+
+.bg-color-lightblue{
+    background-color: #B4D0E7;
+}
+
+.bg-color-blue{
+    background-color: #0093CE;
+}
+
+.bg-color-darkblue{
+    background-color: #0D2481;
+}
+
+.bg-color-yellow{
+    background-color: #FFD830;
+}
+
+.bg-color-bordeaux{
+    background-color: #61082B;
+}
+
+.col-4 > .col-6{
+    height: 50%;
+}
+
+.filter-white{
+    filter: invert(99%) sepia(1%) saturate(424%) hue-rotate(190deg) brightness(120%) contrast(100%);
+}
+
+.col-6 > img{
+    padding: 110px 70px;
+} 
+
+.client-section > .container-big{
+    margin-top: 160px;
+}
+
+.container-big .column{
+    row-gap: 40px;
+    padding: 50px;
+}
+
+.bg-color-darkwhite{
+    background-color: #F5F5F5;
+}
+
+.logo-clients-central{
+    max-width: 70%;
 }
