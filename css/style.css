@@ -8,6 +8,9 @@
 img {
     max-width: 100%;
 }
+.navbar figure{
+    display: block;
+}
 
 .container{
     max-width: 1200px;
@@ -155,4 +158,8 @@ margin-left: 34px;
     display: flex;
     flex-direction: column;
     gap: 50px 0;
+}
+
+.debug{
+    border: 1px rgb(164, 161, 161) solid;
 }
