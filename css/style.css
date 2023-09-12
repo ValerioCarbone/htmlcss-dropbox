@@ -52,6 +52,10 @@ li, ul, ol {
     align-items: center;
 }
 
+.align-items-flxstrt{
+    align-items: flex-start;
+}
+
 .navbar .container-big > .row{
     padding: 22px 20px;
 }
@@ -111,7 +115,6 @@ font-size: 16px;
 .column{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
 }
 
 .col-4{
@@ -281,4 +284,13 @@ margin-bottom: 20px;
 
  .tool-section .col-4{
     flex-basis: calc((100% - 100px) / 3);
+ }
+
+ .tool-section .row{
+    row-gap: 70px;
+    column-gap: 50px;
+ }
+
+ .tool-section.clients-section .section-title{
+    margin-bottom: 50px;
  }
