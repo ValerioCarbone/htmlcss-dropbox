@@ -15,6 +15,11 @@ a{
     text-decoration: none;   
 }
 
+li, ul, ol {
+    list-style: none;
+    text-decoration: none;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -72,7 +77,7 @@ font-size: 16px;
 }
 
 .button{ 
-    font-size: 18px;
+    font-size: 16px;
     padding: 12px 16px;
     line-height: 44px
 }
@@ -114,6 +119,10 @@ font-size: 16px;
     flex-basis: calc((100% / 12) * 8); 
 }
 
+.col-12{
+    flex-basis: 100%;
+}
+
 .hero-title{
     font-size: 76px;
     font-weight: 900;
@@ -137,6 +146,7 @@ font-size: 16px;
 
 .hero-items{
     padding-bottom: 40px;
+    line-height: 22px;
 }
 
 .hero-text{
@@ -161,7 +171,7 @@ font-size: 16px;
 }
 
 .business .row{
-    gap:  0 50px;
+    gap:  40px 50px;
 }
 
 .card-container{
@@ -175,19 +185,20 @@ font-size: 16px;
 }
 
 .debug{
-    border: 1px rgb(164, 161, 161) solid;
+    border: 1px rgb(206, 201, 201) solid;
 }
 
 .border-bottom{
-    border-bottom: 1px solid rgb(164, 161, 161);
+    border-bottom: 1px solid rgb(206, 201, 201);
 }
 
 .main-section > .container-sm{
     padding-top: 160px;
 }
-.hero-row img{
-    /* height: 120%; */
-    aspect-ratio: 2/3 auto;
-    display: inline-block;
-    max-width:max-content;
+
+.card-header{
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+
 }
