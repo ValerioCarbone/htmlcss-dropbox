@@ -169,11 +169,11 @@ font-size: 16px;
     display: inline-block;
 }
 
-.business .col-4{
+.row > .col-4.debug{
     flex-basis: calc((100% - 100px) / 3);
 }
 
-.col-4.debug > .row{
+.business-section > .row{
     gap:  40px 50px;
 }
 
@@ -184,7 +184,7 @@ font-size: 16px;
     gap: 20px;
 }
 
-.business{
+.business-section{
     display: flex;
     flex-direction: column;
     gap: 50px 0;
@@ -236,7 +236,7 @@ margin-bottom: 20px;
    display: block;
  }
 
- .business a{
+ .button-prova{
     text-decoration: underline;
     color: blue;
  }
@@ -259,4 +259,6 @@ margin-bottom: 20px;
  }
 
 
- 
+ div [class$='-section']{
+    padding-top: 160px
+ }
