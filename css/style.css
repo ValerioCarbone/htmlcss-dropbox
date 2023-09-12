@@ -275,12 +275,16 @@ margin-bottom: 20px;
     padding: 60px 40px;
  }
 
- .button-grey{
-    border: solid 1px black;
+ .button-black{
     color: black;
     margin: 24px 0;
     display: inline-block;
+    background-color: white;
  }
+
+.border-black{
+    border: solid 1px black;
+}
 
  .tool-section .col-4{
     flex-basis: calc((100% - 100px) / 3);
@@ -368,3 +372,18 @@ margin-bottom: 20px;
 .logo-clients-central{
     max-width: 70%;
 }
+
+.cta-section .section-title{
+    color: #61082B;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.cta-section .button-sm{
+    width: 100%;
+}
+
+.cta-section .row{
+    padding: 100px 0;
+}
+
