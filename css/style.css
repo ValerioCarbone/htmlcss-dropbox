@@ -162,7 +162,7 @@ font-size: 16px;
 }
 
 .section-title{
-    font-size: 40px;
+    font-size: 38px;
     /* padding-top: 60px; */
     padding-bottom: 10px;
 }
@@ -291,6 +291,19 @@ margin-bottom: 20px;
     column-gap: 50px;
  }
 
- .tool-section.clients-section .section-title{
+ .tool-section .section-title,
+ .client-section .section-title{
     margin-bottom: 50px;
  }
+
+.col-6{
+    flex-basis: 50%;
+}
+
+.client-section span{
+    display: inline-block;
+}
+
+.client-section .border-bottom{
+    width: 60px;
+}
