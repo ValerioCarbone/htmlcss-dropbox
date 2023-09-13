@@ -240,9 +240,15 @@ BUSINESS SECTION
 }
 
 .card-cta::after{
-    content: "";
-    width: 48px;
-    border-bottom: 1px solid grey;
+    content: '';
+	display: block;
+	width: 48px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.function-list{
+    padding-top: 30px;
 }
 
 .price{
@@ -408,8 +414,11 @@ TOOL SECTION
 }
 
 .container-big .column{
-    row-gap: 40px;
-    padding: 50px;
+    padding: 0 50px;
+}
+
+.central-clients-card{
+    padding: 34px 0;
 }
 
 .bg-color-darkwhite{
@@ -420,9 +429,18 @@ TOOL SECTION
     max-width: 70%;
 }
 
+.logo-clients-centrals:after{
+    content: '';
+	display: block;
+	width: 96px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
 .col-6.bg-color-lightgreen{
     box-shadow: inset 0px 0px 0px 16px #d9f9d4;
 }
+
 
 
 /* 
