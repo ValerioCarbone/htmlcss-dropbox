@@ -483,3 +483,17 @@ FOOTER
 .bg-color-black{
     background-color: black;
 }
+
+ .footer-section .col-2 a{
+    color: white;
+    line-height: 2;
+}
+
+.footer-section .row{
+    padding: 100px 0;
+}
+
+.lang-selector{
+    color: gray;
+    padding: 50px 0;
+}
