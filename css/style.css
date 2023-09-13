@@ -237,6 +237,12 @@ BUSINESS SECTION
     margin-bottom: 20px;
 }
 
+.card-cta::after{
+    content: "";
+    width: 48px;
+    border-bottom: 1px solid grey;
+}
+
 .price{
 font-weight: 600;
 font-size: 14px;
@@ -249,9 +255,6 @@ margin-bottom: 20px;
  margin-bottom: 20px;
 }
 
-.function-item{
-    margin-bottom: 20px;
-}
  .business-section span{
    margin-bottom: 36px;
    display: block;
@@ -261,14 +264,10 @@ margin-bottom: 20px;
     text-decoration: underline;
     color: blue;
  }
-
- .block-borderbottom{
-    width: 45px;
-    border-bottom: 1px solid rgb(206, 201, 201);
- }
  
  .list-title{
     font-weight: 600;
+    padding-bottom: 30px;
  
 }
  .function-item .fa-check{
@@ -292,6 +291,16 @@ margin-bottom: 20px;
     flex-basis: calc(100% / 12 * 5);
  }
 
+.functions{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.function-item{
+    display: flex;
+    align-items: baseline;
+}
 
 /*
  PARTNER SECTION 
@@ -434,4 +443,8 @@ CTA
 
 .col-6.bg-color-lightgreen{
     box-shadow: inset 0px 0px 0px 16px #d9f9d4;
+}
+
+.align-items-1bsln{
+    align-items: first baseline;
 }
