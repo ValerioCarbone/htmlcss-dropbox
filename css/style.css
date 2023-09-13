@@ -426,7 +426,7 @@ TOOL SECTION
 
 
 /* 
-CTA 
+CTA SECTION
 */
 
 
@@ -446,4 +446,40 @@ CTA
 
 .align-items-1bsln{
     align-items: first baseline;
+}
+
+
+/* 
+FAQ SECTION 
+*/
+
+.faq-section{
+    padding-bottom: 160px; 
+}
+
+.faq-section .row{
+    font-weight: bold;
+ }
+
+.faq-section .section-title{
+    padding-bottom: 80px;   
+}
+
+.faq{
+    padding: 50px 0;    
+}
+
+.faq-section .column div:nth-child(2n+0){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+/*
+FOOTER 
+*/
+
+
+.bg-color-black{
+    background-color: black;
 }
