@@ -15,7 +15,8 @@ SETTINGS
 }
 
 .navbar img, 
-.main-section img {
+.main-section img,
+.footer-section img {
     max-width: 100%;
     display: block;
 
