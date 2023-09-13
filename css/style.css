@@ -223,14 +223,11 @@ BUSINESS SECTION
     border: 1px rgb(206, 201, 201) solid;
 }
 
-.border-bottom{
-    border-bottom: 1px solid rgb(206, 201, 201);
-}
-
-
 .card-header{
     padding: 10px 0;
     font-weight: 300;
+    justify-content: center;
+    border-bottom: 1px solid rgb(206, 201, 201);
 
 }
 
