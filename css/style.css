@@ -1,4 +1,8 @@
 
+/* 
+SETTINGS 
+*/
+
 
 *{
     padding: 0;
@@ -58,6 +62,12 @@ li, ul, ol {
     align-items: flex-start;
 }
 
+
+/* 
+HEADER 
+*/
+
+
 .navbar .container-big > .row{
     padding: 22px 20px;
 }
@@ -77,6 +87,12 @@ font-size: 16px;
 margin-left: 34px;
 font-size: 16px;
 }
+
+
+/* 
+HERO 
+*/
+
 
 .hero{
     background-color: #B4D0E7;
@@ -162,6 +178,12 @@ font-size: 16px;
     justify-content: space-between;
     flex-direction: column;
 }
+
+
+/* 
+BUSINESS SECTION 
+*/
+
 
 .section-title{
     font-size: 38px;
@@ -273,6 +295,12 @@ margin-bottom: 20px;
     flex-basis: calc(100% / 12 * 5);
  }
 
+
+/*
+ PARTNER SECTION 
+ */
+
+
  .partner-section .col-5{
     padding: 60px 40px;
  }
@@ -288,6 +316,12 @@ margin-bottom: 20px;
     border: solid 1px black;
 }
 
+
+/* 
+TOOL SECTION 
+*/
+
+
  .tool-section .col-4{
     flex-basis: calc((100% - 100px) / 3);
  }
@@ -296,6 +330,12 @@ margin-bottom: 20px;
     row-gap: 70px;
     column-gap: 50px;
  }
+
+
+ /* 
+ CLIENT SECTION 
+ */
+
 
  .tool-section .section-title,
  .client-section .section-title{
@@ -374,6 +414,12 @@ margin-bottom: 20px;
 .logo-clients-central{
     max-width: 70%;
 }
+
+
+/* 
+CTA 
+*/
+
 
 .cta-section .section-title{
     color: #61082B;
