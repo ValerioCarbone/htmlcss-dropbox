@@ -14,7 +14,8 @@ SETTINGS
     display: block;
 }
 
-.navbar .main-section img {
+.navbar img, 
+.main-section img {
     max-width: 100%;
     display: block;
 
