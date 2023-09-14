@@ -531,3 +531,11 @@ FOOTER
     color: gray;
     padding: 50px 0;
 }
+
+.footer-menu:after{
+    content: '';
+	display: block;
+	width: 96px;
+	height: 1px;
+	background-color: rgb(255, 255, 255);
+}
