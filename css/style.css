@@ -10,16 +10,9 @@ SETTINGS
     box-sizing: border-box;
     font-family: Montserrat;
 }
-.hero img{
+img{
     display: block;
-}
-
-.navbar img, 
-.main-section img,
-.footer-section img {
     max-width: 100%;
-    display: block;
-
 }
 
 a{
@@ -172,7 +165,7 @@ HERO
     flex-grow: 1;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .hero-items{
@@ -187,15 +180,9 @@ HERO
 }
 
 .hero .col-8 img{
-    overflow: visible;
-    height: 116%;
-    width: 106%;
+    margin-bottom: -80px;
 }
 
-.hero .row{
-    max-height: 464px;
-    max-width: 1200px;
-}
 
 
 /* 
@@ -372,7 +359,11 @@ TOOL SECTION
     margin-bottom: 50px;
  }
 
-.col-6{
+.container-big > .row{
+    flex-wrap: nowrap;
+}
+
+ .col-6{
     flex-basis: 50%;
 }
 
@@ -421,7 +412,7 @@ TOOL SECTION
 }
 
 .col-6 > img{
-    width: 50%;
+    max-width: 50%;
     
 }
 
